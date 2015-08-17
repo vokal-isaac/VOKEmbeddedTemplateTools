@@ -2,10 +2,12 @@
 
 Handle a zip file of mustache templates embedded into the Mach-O executable.
 
-[![CI Status](http://img.shields.io/travis/Isaac Greenspan/VOKEmbeddedTemplateTools.svg?style=flat)](https://travis-ci.org/Isaac Greenspan/VOKEmbeddedTemplateTools)
+[![CI Status](http://img.shields.io/travis/vokal/VOKEmbeddedTemplateTools.svg?style=flat)](https://travis-ci.org/vokal/VOKEmbeddedTemplateTools)
 [![Version](https://img.shields.io/cocoapods/v/VOKEmbeddedTemplateTools.svg?style=flat)](http://cocoapods.org/pods/VOKEmbeddedTemplateTools)
 [![License](https://img.shields.io/cocoapods/l/VOKEmbeddedTemplateTools.svg?style=flat)](http://cocoapods.org/pods/VOKEmbeddedTemplateTools)
 [![Platform](https://img.shields.io/cocoapods/p/VOKEmbeddedTemplateTools.svg?style=flat)](http://cocoapods.org/pods/VOKEmbeddedTemplateTools)
+
+When creating a stand-alone executable, such as a command-line tool, there's no traditional application bundle to contain associated files.  Embedding those files into the `__TEXT` section of the Mach-O executable (as Apple does with the Info.plist), can be a viable alternative.
 
 ## Usage
 

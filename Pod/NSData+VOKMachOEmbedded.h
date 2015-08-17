@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  Get data that has been embedded into the currently-running mach-o executable's __TEXT section as NSData.
+ */
 @interface NSData (VOKMachOEmbedded)
 
 /**
